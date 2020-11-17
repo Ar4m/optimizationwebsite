@@ -101,13 +101,13 @@
 .jq-number:focus {
 	outline: none;
 }
-.jq-number__field {
-	/* width: 100px; */
-	/* border: 1px solid #CCC;
+/*.jq-number__field {
+	 width: 100px;
+	border: 1px solid #CCC;
 	border-bottom-color: #B3B3B3;
 	border-radius: 4px;
-	box-shadow: inset 1px 1px #F1F1F1, 0 1px 2px rgba(0,0,0,.1); */
-}
+	box-shadow: inset 1px 1px #F1F1F1, 0 1px 2px rgba(0,0,0,.1); 
+}*/
 .jq-number__field:hover {
 	border-color: #B3B3B3;
 }
@@ -177,9 +177,9 @@
 .jq-number__spin.plus:hover:after {
 	border-bottom-color: #000;
 }
-.jq-number.focused .jq-number__field {
-	/* border: 1px solid #5794BF; */
-}
+/* .jq-number.focused .jq-number__field {
+	border: 1px solid #5794BF; 
+}*/
 .jq-number.disabled .jq-number__field,
 .jq-number.disabled .jq-number__spin {
 	border-color: #CCC;
@@ -213,16 +213,16 @@
 	color: #333;
 	text-shadow: 1px 1px #FFF; */
 }
-.jq-selectbox__select:hover {
-	/* background: linear-gradient(#F6F6F6, #E6E6E6); */
-}
-.jq-selectbox__select:active {
-	/* background: #F5F5F5;
-	box-shadow: inset 1px 1px 3px #DDD; */
-}
-.jq-selectbox.focused .jq-selectbox__select {
-	/* border: 1px solid #5794BF; */
-}
+/* .jq-selectbox__select:hover {
+	background: linear-gradient(#F6F6F6, #E6E6E6);
+} */
+/* .jq-selectbox__select:active {
+	background: #F5F5F5;
+	box-shadow: inset 1px 1px 3px #DDD;
+} */
+/* .jq-selectbox.focused .jq-selectbox__select {
+	border: 1px solid #5794BF;
+} */
 .jq-selectbox.disabled .jq-selectbox__select {
 	border-color: #CCC;
 	background: #F5F5F5;
